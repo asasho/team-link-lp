@@ -1,0 +1,128 @@
+.header {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 5;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+}
+
+.header img {
+  position: fixed;
+  height: 40px;
+  width: auto;
+  padding: 5px;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.header h2 {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  display: inline-block;
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.login {
+  color: black;
+  background-color: white;
+}
+
+.ad {
+  color: black;
+  background-color: white;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.button_icon {
+  position: fixed;
+  top: 0;
+  right: -18px;
+  width: 60px;
+  height: 60px;
+}
+
+.close_icon {
+  border: none;
+  background-color: transparent;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.button_h3 {
+  position: fixed;
+  top: 120px;
+  right: -35px;
+  left: auto;
+  bottom: auto;
+  transform: rotate(-90deg);
+  font-size: 14px;
+  color: black;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 60px;
+  }
+
+  .header img {
+    height: 50px;
+    padding: 5px 0;
+  }
+
+  .header h2 {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin: 0;
+  }
+
+  .item a {
+    text-decoration: none;
+  }
+
+  .item h2,
+  .item h3 {
+    color: black;
+  }
+
+  .modal_logo {
+    position: fixed;
+    bottom: 10px;
+    left: auto;
+    right: auto;
+    top: auto;
+  }
+}

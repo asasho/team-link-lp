@@ -1,0 +1,26 @@
+.btn {
+  height: 55px;
+  line-height: 55px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none !important;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    margin-top: 20px;
+    width: auto;
+    padding: 0 20px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}

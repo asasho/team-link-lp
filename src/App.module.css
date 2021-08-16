@@ -1,0 +1,419 @@
+h1 {
+  font-family: "Noto Sans JP", "Open Sans", メイリオ, Meiryo,
+    sans-serif "Noto Sans JP", "Open Sans", "メイリオ", "Meiryo", sans-serif;
+}
+
+.app {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.head {
+  height: 700px;
+  display: flex;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/team-link-lp-picture/IMG/top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub_head {
+  max-width: 1400px;
+  min-width: 1200px;
+  position: relative;
+  align-items: center;
+  min-height: 610px;
+  padding: 0 80px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head_text {
+  position: absolute;
+  padding-top: 80px;
+  top: 100px;
+  z-index: 2;
+  min-width: 600px;
+  margin-left: 40px;
+  height: auto;
+}
+
+.head_text h1 {
+  line-height: 1.5;
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  background-color: white;
+  font-size: 40px;
+  margin: 5px 0;
+  color: black;
+}
+
+.head_text span {
+  color: #0095f6;
+}
+
+.head_text p {
+  color: white;
+}
+
+.head_img {
+  position: absolute;
+  z-index: 1;
+  padding-top: 90px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 800px;
+}
+
+.img_div {
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: auto;
+}
+
+.img_div img {
+  position: absolute;
+  margin: auto;
+  width: 800px;
+}
+
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.partner {
+  text-align: center;
+  padding: 100px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partner span {
+  color: #0095f6;
+}
+
+.partner_item {
+  height: 60px;
+}
+
+.matter {
+  text-align: center;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.matter div {
+  width: 100%;
+  height: 250px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.matter h3 {
+  width: 40%;
+  line-height: 30px;
+  padding: 30px 10px;
+  background-color: white;
+  margin: auto;
+  color: black;
+}
+
+.mechanism {
+  text-align: center;
+  border: solid 4px #0095f6;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.mechanism h1 {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 30px 20px;
+  background-color: black;
+  color: white;
+}
+
+/*process*/
+.process {
+  margin: 100px 0;
+}
+
+.process h1 {
+  text-align: center;
+}
+
+.process_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.QA {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.QAset {
+  box-shadow: 0 0 8px gray;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Q,
+.A {
+  width: 100%;
+  display: flex;
+}
+.word {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.QAset h2 {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.QAset h3 {
+  margin: 0;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.Q {
+  line-height: 30px;
+  cursor: pointer;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.A {
+  line-height: 30px;
+  border-top: solid 1px gray;
+  padding: 30px 0;
+  justify-content: start;
+}
+
+.cta {
+  width: 100%;
+  text-align: center;
+  background-color: #0095f6;
+  padding-top: 50px;
+}
+
+.cta h2 {
+  color: white;
+}
+
+.cta div {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1170px) {
+  .head {
+    height: 1000px;
+  }
+
+  .process_content {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .matter div {
+    height: 400px;
+  }
+
+  .matter h3 {
+    text-align: left;
+  }
+
+  .mechanism {
+    width: 90%;
+  }
+}
+
+@media (max-width: 968px) {
+  .head {
+    height: 1000px;
+  }
+
+  .head_img {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+  }
+
+  .QA {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 21px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  /*head*/
+
+  .head {
+    height: 900px;
+  }
+
+  .sub_head {
+    max-width: 800px;
+    min-width: 300px;
+    height: 800px;
+    padding: 0px;
+    width: 90%;
+  }
+
+  .head_text {
+    top: 400px;
+    left: auto;
+    right: auto;
+    width: 90%;
+    min-width: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .head_text h1 {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 0 10px 0 10px;
+  }
+
+  .head_img {
+    top: 60px;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    min-width: 300px;
+    max-width: 700px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+  }
+
+  .sub_head img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .item {
+    width: 100%;
+    margin: auto;
+  }
+
+  /*matter*/
+  .matter h3 {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 20px 0 20px 20px;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  /*mechanism*/
+  .mechanism h1 {
+    font-size: 17px;
+    width: 80%;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .mechanism h2 {
+    font-size: 14px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .mechanism img {
+    width: 90%;
+  }
+
+  .QA {
+    margin-top: 100px;
+  }
+
+  /*cta*/
+  .cta div {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .head {
+    height: 800px;
+  }
+
+  .head_text {
+    top: 350px;
+    left: auto;
+    right: auto;
+    width: 100%;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .head_text h1 {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .head_img {
+    top: 60px;
+  }
+
+  .item {
+    margin: 20px 0;
+  }
+
+  .img_div img {
+    margin-top: 40px;
+  }
+}
