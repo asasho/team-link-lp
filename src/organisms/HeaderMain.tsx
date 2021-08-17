@@ -55,6 +55,7 @@ const HeaderMain = () => {
             <h3 className={styles.button_h3}>掲載希望の方はこちら</h3>
           </button>
           <div className={styles.item}>
+            <h2 className={styles.title}>掲載希望の方はこちら</h2>
             <a href="">
               <h3>Team Link サービス概要</h3>
             </a>
